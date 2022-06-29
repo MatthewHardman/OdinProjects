@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class = "container">
+        <div class = "weather-card" id="weather-card-1">
+            <div>
+                <input type="text" id="location-1" placeholder="Add city"/>
+                <button type="button" onclick="findLocation1()">Add</button>
+            </div>
+            <div id="city-1"></div>
+            <div id="temperature-1"></div>
+            <div id="weather-1"></div>
+        </div>
+
+        <div class = "weather-card" id="weather-card-2">
+            <div>
+                <input type="text" id="location-2" placeholder="Add city"/>
+                <button type="button" onclick="findLocation2()">Add</button>
+            </div>
+            <div id="city-2"></div>
+            <div id="temperature-2"></div>
+            <div id="weather-2"></div>
+        </div>
+
+        <div class = "weather-card" id="weather-card-3">
+            <div>
+                <input type="text" id="location-3" placeholder="Add city"/>
+                <button type="button" onclick="findLocation3()">Add</button>
+            </div>
+            <div id="city-3"></div>
+            <div id="temperature-3"></div>
+            <div id="weather-3"></div>
+        </div>
+        <div id="forecast-ribbon">
+
+        </div>
+        <div id="footer">
+            
+        </div>
+    </div>
+</body>
+
+</html>
